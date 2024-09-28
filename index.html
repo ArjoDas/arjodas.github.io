@@ -3,10 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/static/styles.css">
     <title>arjodas</title>
+    <style>
+        body, html {
+            height: 100%;
+        }
+        .container {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
 </head>
 <body>
-    this is arjodas.com
+    <script src="/static/theme.js"></script>
+
+    <div class="container d-flex h-100 justify-content-center align-items-center"> <!-- container -->
+        <div class="content text-center" style="max-width: 600px;">
+            <h1 class="mb-4">Welcome to ArjoDas.com</h1>
+            <p class="lead">
+                Hello! I'm Arjo, and this is the future home of my personal projects and experiments.
+            </p>
+            <p>
+                I'm passionate about web development, machine learning, and creative coding.
+            </p>
+            <p class="coming-soon mt-2 fst-italic">
+                Exciting projects are in the works. Check back soon to see what I'm building!
+            </p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (optional, if you need Bootstrap's JavaScript features) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
