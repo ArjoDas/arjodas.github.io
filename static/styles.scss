@@ -3,7 +3,8 @@
 
 // Variable overrides second
 // Custom background colours
-    // $body-bg: $body-bg;
+    // variables are defined in node_modules/bootstrap/scss/_variables.scss and node_modules/bootstrap/scss/_variables-dark.scss
+    $body-bg: #fff; // default value
     $body-bg-dark: #0E1117;
 
 
